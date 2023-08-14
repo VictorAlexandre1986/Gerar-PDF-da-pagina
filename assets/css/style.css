@@ -48,6 +48,11 @@
     position: absolute;
     right: 10px;
     bottom:10px;
+    transition: 0.4s;
+}
+
+.btnGerar:hover{
+    background-color: #de77f3;
 }
 
 .linhaCinza{

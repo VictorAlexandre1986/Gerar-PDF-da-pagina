@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/apps.js" defer></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Gerar PDF</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, velit corrupti aperiam accusantium voluptatum nam dolores magnam! Atque nesciunt reiciendis laborum labore iure cum saepe, suscipit nostrum porro sed fugiat?</p>
+        <table class="tableRelatorio">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Cargo</th>
+                    <th>Salario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="linhaCinza">
+                    <td>Victor</td>
+                    <td>Desenvolvedor</td>
+                    <td>R$5.000</td>
+                </tr>
+                <tr>
+                    <td>Alexandre</td>
+                    <td>Cientista de dados</td>
+                    <td>R$6.000</td>
+                </tr>
+                <tr class="linhaCinza">
+                    <td>Braga</td>
+                    <td>Devops</td>
+                    <td>R$5.000</td>
+                </tr>
+                <tr>
+                    <td>Ribeiro</td>
+                    <td>FrontEnd</td>
+                    <td>R$4.000</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="gerarPDF" class="btnGerar">Gerar PDF</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</body>
+</html>

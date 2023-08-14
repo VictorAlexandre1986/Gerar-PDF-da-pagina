@@ -11,3 +11,5 @@ Gerar um pdf da pagina no lado do cliente, sem node.js
 
 ## Screenshot
 
+<img src="Video_1692021057.gif">
+
